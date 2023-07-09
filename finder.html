@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Procurar imagem</title>
+        <link href="styleFinder.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="title">
+            <h1>Lista  das  imagens</h1>
+        </div>
+        <div class="sideBar">
+            <label for="search"><br><h2>Qual imagem é que<br>você quer?</h2></label>
+            <input id="search" type="search">
+            <button class="showImg" id="showImg" onclick="showImages()">Mostrar imagens</button>
+            <button class="setting" onclick="settings()">&#9881 Mudar pasta</button>
+            <div class="footer">
+                <p>&#169 Missão Católica de Catió</p>
+            </div>
+        </div>
+        <div class="centralBody">
+            <div id="mainFolder">
+                <!--main data-->
+            </div>
+            <div id="subFolders">
+                <!--subfolders data-->
+            </div>
+        </div>
+        </div>
+        <script src="info.js"></script>
+        <script src="word_searcher.js"></script>
+    </body>
+</html>
